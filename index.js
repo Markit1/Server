@@ -43,6 +43,8 @@ if (app.get('env') === 'development') {
   });
 }
 
+app.set('port', (process.env.PORT || 5000));
+
 /**
   Production
 **/
@@ -58,6 +60,6 @@ app.use(function (err, req, res, next) {
 /**
   Listening
 **/
-app.listen(3000, function () {
+app.listen(app.get('port'), function () {
   console.log('Listening in localhost:3000');
 });
