@@ -27,7 +27,7 @@ var api = require('./routes/api');
 var application = require('.routes/application');
 
 app.use('/api/', api);
-app.use('/api/', application);
+app.use('/', application);
 
 /**
   Error handlers
