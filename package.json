@@ -1,0 +1,21 @@
+{
+  "name": "MarkIt",
+  "version": "0.0.0",
+  "description": "Server of MarkIt extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "comment",
+    "extension",
+    "MarkIt"
+  ],
+  "author": "MarkIt",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.12.3",
+    "cors": "~2.5.3",
+    "body-parser": "~1.12.2"
+  }
+}
