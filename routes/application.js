@@ -4,6 +4,6 @@ var app = express();
 
 /*jslint unparam: true*/
 app.get('/', function (req, res) {
-  res.render('index', {});
+  res.send('Hola mundo');
 });
 /*jslint unparam: false*/
