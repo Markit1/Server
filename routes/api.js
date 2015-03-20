@@ -5,3 +5,4 @@ var app = express();
 
 app.use(body_parser.json('application/json'));
 
+module.exports = app;

@@ -7,3 +7,5 @@ app.get('/', function (req, res) {
   res.send('Hola mundo');
 });
 /*jslint unparam: false*/
+
+module.exports = app;
