@@ -24,8 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
   Routes
 **/
 var api = require('./routes/api');
+var application = require('.routes/application');
 
 app.use('/api/', api);
+app.use('/api/', application);
 
 /**
   Error handlers
